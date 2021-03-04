@@ -1,0 +1,43 @@
+section{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    border: 3px solid gray;
+    border-radius: 40px;
+    /* text-align: center; */
+    margin-left: 25%;
+    padding: 20px;
+    position: relative;
+}
+
+li{
+    /* border: 2px solid grey; */
+    
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 40px;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Alphabet{
+    font-size: 20px;
+    background-color:  rgba(95,95,233);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 30px;
+    border: 4px solid grey;
+    margin-top: 40px;
+    top: 5px;
+    position: sticky;
+    
+}
+
+li::before{
+    content:'\1F4DE';
+    margin-right: 20px;
+}
